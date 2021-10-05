@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import { v4 as keyGen } from 'uuid'
 import Head from 'next/head'
-
+import favicon from '../../public/favicon.svg'
 //Components
 import Banner from '../components/Banner'
 import SmallCard from '../components/SmallCard'
@@ -12,10 +12,9 @@ function Home({ explorerDate, cardsData }) {
   return (
     <Fragment>
       <Head>
-        <title>Airbnb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Airbnb Clone - Wellzin xD</title>
+        <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
-
 
       <section>
         <Banner />
